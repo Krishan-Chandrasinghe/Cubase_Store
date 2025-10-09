@@ -39,38 +39,46 @@ Before running this project, make sure you have:
 ## ⚙️ Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/cubase-store.git
    cd cubase-store
 
 2. **Install PHP dependencies**
+
    ```bash
    composer install
 
 3. **Install NPM dependencies (because this project uses Vite)**
+
    ```bash
    npm install
 
 4. **Environment setup**
+
    ```bash
    cp .env.example .env
    php artisan key:generate
 
 5. **Configure database**
-  - Create a MySQL database
-  - Update .env file with your database credentials:
+    - Create a MySQL database
+    - Update .env file with your database credentials:
+
    ```bash
    cp .env.example .env
    php artisan key:generate
 
 6. **Run migrations**
+
    ```bash
    php artisan migrate
 
 7. **Seed database (optional)**
+
    ```bash
    php artisan db:seed
 
 8. **Start development server**
+
    ```bash
    php artisan serve
