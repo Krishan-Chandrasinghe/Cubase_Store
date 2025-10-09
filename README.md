@@ -59,7 +59,6 @@ Before running this project, make sure you have:
 5. **Configure database**
   - Create a MySQL database
   - Update .env file with your database credentials:
-
    ```bash
    cp .env.example .env
    php artisan key:generate
