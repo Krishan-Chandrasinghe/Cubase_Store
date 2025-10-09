@@ -41,8 +41,8 @@ Before running this project, make sure you have:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/cubase-store.git
-   cd cubase-store
+   git clone https://github.com/Krishan-Chandrasinghe/Cubase_Store.git
+   cd Cubase_Store
 
 2. **Install PHP dependencies**
 
