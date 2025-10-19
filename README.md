@@ -87,6 +87,11 @@ php artisan db:seed
 ```
 
 8. **Start development server**
+    - Open two terminals inside your application root folder (One for the Laravel and one for the Vite developmet server)
+
+```bash
+npm run dev
+```
 
 ```bash
 php artisan serve
